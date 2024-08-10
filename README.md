@@ -1,8 +1,4 @@
-# React + Vite
+# GHW Project: ML in JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a project created with the help of Major League Hacking's AI/ML Global Hack Week, which took place Aug. 8 - 16, 2024.
+The website is made using Vite and React with the help of the Tesseract.js library in order to process text from images.
