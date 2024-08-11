@@ -18,7 +18,10 @@ export default function ImageUpload({ onImageChange }) {
     return (
         <div>
             <h2>Upload Image</h2>
-            <input type="file" accept="image/*" onChange={handleImageUpload} />
+            <input type="file" accept="image/*" onChange={handleImageUpload} style={{
+                margin: "10px auto",
+                cursor: "pointer",
+            }} />
         </div>
     )
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Tesseract from "tesseract.js";
 import ImageUpload from "./ImageUpload";
 
-export default function OCRReader() {
+export default function OCRReaderV1() {
     const [image, setImage] = useState(null);
     const [text, setText] = useState("");
 
@@ -22,6 +22,7 @@ export default function OCRReader() {
 
     return (
         <div>
+            <h1>OCR Reader - Version 1</h1>
             <div>
                 <ImageUpload onImageChange={handleImageChange} />
                 {image && (
@@ -34,9 +35,11 @@ export default function OCRReader() {
                     </div>
                 )}
             </div>
-            <div>
+            <div style={{
+                marginTop: "20px",
+            }}>
                 <h3>Extracted Text: </h3>
-                <p>{text}</p>
+                <p style={{ marginBottom: "20px" }}>{text}</p>
             </div>
         </div>
     )
